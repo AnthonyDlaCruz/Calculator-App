@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/dark.css" />
+    <title>Calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Calculadora</h1>
+        <label class="theme">theme</label>
+        <input
+          type="checkbox"
+          id="darkModeSwitch"
+          class="checkbox"
+          onclick="toggleDarkMode()"
+        />
+
+        <label for="darkModeSwitch" class="toggle"></label>
+      </div>
+      <div class="calculadora">
+        <div class="pantalla">0</div>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button id="del" class="btn">DEL</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">+</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">-</button>
+        <button class="btn">.</button>
+        <button id="cero" class="btn">0</button>
+        <button class="btn">/</button>
+        <button class="btn">*</button>
+        <button id="reset" class="btn">RESET</button>
+        <button id="igual" class="btn">=</button>
+      </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/dark.js"></script>
+  </body>
+</html>
